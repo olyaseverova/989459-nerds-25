@@ -30,66 +30,68 @@
       <!-- Здесь будет форма -->
       <h3 class="caption">Сортировать:</h3>
       <!-- Здесь будет форма -->
-      <fieldset>
-        <legend>Сетка:</legend>
-        <ul>
-          <li class="filter-option">
-            <label>
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="category" value="adaptive"
-                checked>
-              Адаптивная
-            </label>
-          </li>
-          <li class="filter-option">
-            <label>
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="category" value="fixed">
-              Фиксированная
-            </label>
-          </li>
-          <li class="filter-option">
-            <label>
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="category" value="rubber">
-              Резиновая
-            </label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset>
-        <legend>Особенности:</legend>
-        <ul>
-          <li class="filter-option">
-            <label>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked>
-              Слайдер
-            </label>
-          </li>
-          <li class="filter-option">
-            <label>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block">
-              Блок преимуществ
-            </label>
-          </li>
-          <li class="filter-option">
-            <label>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" checked>
-              Новости
-            </label>
-          </li>
-          <li class="filter-option">
-            <label>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery">
-              Галерея
-            </label>
-          </li>
-          <li class="filter-option">
-            <label>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket">
-              Корзина
-            </label>
-          </li>
-        </ul>
-      </fieldset>
-      <a class="button" href="#">Показать</a>
+      <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset>
+          <legend>Сетка:</legend>
+          <ul>
+            <li class="filter-option">
+              <label>
+                <input type="radio" name="grid-type" value="adaptive" checked>
+                Адаптивная
+              </label>
+            </li>
+            <li class="filter-option">
+              <label>
+                <input type="radio" name="grid-type" value="fixed">
+                Фиксированная
+              </label>
+            </li>
+            <li class="filter-option">
+              <label>
+                <input type="radio" name="grid-type" value="rubber">
+                Резиновая
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Особенности:</legend>
+          <ul>
+            <li class="filter-option">
+              <label>
+                <input type="checkbox" value="slider" name="features" checked>
+                Слайдер
+              </label>
+            </li>
+            <li class="filter-option">
+              <label>
+                <input type="checkbox" value="block" name="features">
+                Блок преимуществ
+              </label>
+            </li>
+            <li class="filter-option">
+              <label>
+                <input type="checkbox" value="news" name="features" checked>
+                Новости
+              </label>
+            </li>
+            <li class="filter-option">
+              <label>
+                <input type="checkbox" value="gallery" name="features">
+                Галерея
+              </label>
+            </li>
+            <li class="filter-option">
+              <label>
+                <input type="checkbox" value="basket" name="features">
+                Корзина
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="button" type="submit">Показать</button>
+      </form>
     </section>
     <section class="catalog">
       <h2 class="visually-hidden">Готовые шаблоны</h2>
