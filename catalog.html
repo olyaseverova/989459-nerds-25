@@ -26,11 +26,24 @@
   <main class="container">
     <section class="filters">
       <h1>Магазин готовых шаблонов</h1>
-      <h3 class="caption">Стоимость:</h3>
-      <!-- Здесь будет форма -->
-      <h3 class="caption">Сортировать:</h3>
-      <!-- Здесь будет форма -->
+
       <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset>
+          <legend>Стоимость:</legend>
+          <ul>
+            <li class="filter-option">
+              <label>от
+                <input type="text" name="price" value="" placeholder="0">
+              </label>
+            </li>
+            <li class="filter-option">
+              <label>до
+                <input type="text" name="price" value="" placeholder="15000">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
         <fieldset>
           <legend>Сетка:</legend>
           <ul>
@@ -92,6 +105,16 @@
         </fieldset>
         <button class="button" type="submit">Показать</button>
       </form>
+
+      <section class="sorting">
+        <h3>Сортировать:</h3>
+        <ul class="sorting-list">
+          <li class="sorting-item"><a>по цене</a></li>
+          <li class="sorting-item"><a href="#">по типу</a></li>
+          <li class="sorting-item"><a href="#">по названию</a></li>
+        </ul>
+      </section>
+
     </section>
     <section class="catalog">
       <h2 class="visually-hidden">Готовые шаблоны</h2>
@@ -148,19 +171,19 @@
     </section>
     <section class="pages">
       <ul class="pages-list">
-        <li class="pages-item pages-item-current"><a>1</a></li>
-        <li class="pages-item"><a href="#">2</a></li>
-        <li class="pages-item"><a href="#">3</a></li>
-        <li class="pages-item"><a href="#">Следующая</a></li>
+        <li class="pages-item pages-item-current"><a aria-label="Первая страница">1</a></li>
+        <li class="pages-item"><a href="#" aria-label="Вторая страница">2</a></li>
+        <li class="pages-item"><a href="#" aria-label="Третья страница">3</a></li>
+        <li class="pages-item"><a href="#" aria-label="Следующая страница">Следующая</a></li>
       </ul>
     </section>
     <section class="map-info">
       <h2 class="headline">NЁRDS DESIGN STUDIO</h2>
-      <p>
+      <address class="map-contacts">
         191186, Санкт-Петербург, <br>
         ул. Б. Конюшенная, д. 19/8 <br>
         тел. +7 (812) 275-75-75
-      </p>
+      </address>
       <a class="button" href="text-us.html">Напишите нам</a>
       <section class="text-us">
         <h2>Напишите нам</h2>
