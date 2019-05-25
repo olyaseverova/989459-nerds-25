@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: none;
+
+    background-color: #ffffff;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-image: url("../img/grey-back.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 1440px 545px;
+
+    background-color: #eeeeee;
+}
+
+.site-navigation {
+    list-style: none;
+    text-align: center;
+}
+
+.site-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover {
+    color: #fb565a;
+}
+
+.site-navigation a:focus {
+    color: #000000;
+    opacity: 70%;
+}
+
+.description {
+    background-color: #eeeeee;
+}
+
+.description-list {
+    list-style: none;
+}
+
+.description-item {
+    text-align: left;
+}
+
+.slide-1 {
+    background-image: url("../img/slide1.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 698px 413px;
+}
+
+.slide-2 {
+    background-image: url("../img/slide2.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 663px 430px;
+}
+
+.slide-3 {
+    background-image: url("../img/slide3.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 759px 411px;
+}
+
+.description-item .headline {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.description-item a {
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #fb565a;
+}
+
+.order-1 {
+    background-image: url("../img/order-1.jpeg");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 300px 146px;
+
+}
+
+.order-2 {
+    background-image: url("../img/order-2.jpeg");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 300px 146px;
+
+}
+
+.order-3 {
+    background-image: url("../img/order-3.jpeg");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 300px 146px;
+
+}
+
+.order-list {
+    list-style: none;
+    text-align: center;
+}
+
+.order-item h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.order-item a {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.specification-list {
+    text-align: left;
+    color: #000000;
+    text-transform: none;
+
+    background-color: #ffffff;
+}
+
+.specification .headline {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.specification h3 {
+    text-transform: uppercase;
+}
+
+.procent-info {
+    text-align: right;
+}
+
+.procent-list {
+    list-style: none;
+}
+
+.procent-info-list h3 {
+    text-transform: uppercase;
+}
+
+.procent-item h2 {
+    font-size: 45px;
+    line-height: 10.06px;
+}
+
+.procent-item p {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.small-logo-list {
+    list-style: none;
+}
+
+.map {
+    color: #000000;
+    background-image: url("../img/map.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 416px;
+}
+
+.marker {
+    background-image: url("../img/map-marker.svg");
+    background-position: 868px 90px;
+    background-repeat: no-repeat;
+    background-size: 231px 190px;
+}
+
+.map-info {
+    text-align: left;
+}
+
+.map-info .headline {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.map-info address {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.map-info a {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+    background-color: #fb565a;
+}
+
+.text-us h2 {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.text-us-item {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.text-us button {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+    background-color: #fb565a;
+}
+
+.main-footer ul {
+    list-style: none;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.main-footer b {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.main-footer p {
+    font-size: 16px;
+    line-height: 22px;
+}
