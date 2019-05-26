@@ -14,6 +14,30 @@ body {
 
 a {
     text-decoration: none;
+    color: #000000;
+}
+
+.list {
+    list-style: none;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.headline {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.big-headline {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .main-navigation {
@@ -22,21 +46,11 @@ a {
     color: #000000;
     text-transform: uppercase;
 
-    background-image: url("../img/grey-back.png");
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 1440px 545px;
-
     background-color: #eeeeee;
 }
 
 .site-navigation {
-    list-style: none;
     text-align: center;
-}
-
-.site-navigation a {
-    color: #000000;
 }
 
 .site-navigation a:hover {
@@ -50,13 +64,6 @@ a {
 
 .description {
     background-color: #eeeeee;
-}
-
-.description-list {
-    list-style: none;
-}
-
-.description-item {
     text-align: left;
 }
 
@@ -81,14 +88,8 @@ a {
     background-size: 759px 411px;
 }
 
-.description-item .headline {
-    font-size: 55px;
-    line-height: 55px;
-}
-
 .description-item a {
     color: #ffffff;
-    text-transform: uppercase;
     background-color: #fb565a;
 }
 
@@ -117,21 +118,12 @@ a {
 }
 
 .order-list {
-    list-style: none;
     text-align: center;
 }
 
 .order-item h3 {
-    text-transform: uppercase;
     font-size: 24px;
     line-height: 30px;
-}
-
-.order-item a {
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 18px;
-    color: #000000;
 }
 
 .specification-list {
@@ -142,25 +134,8 @@ a {
     background-color: #ffffff;
 }
 
-.specification .headline {
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.specification h3 {
-    text-transform: uppercase;
-}
-
 .procent-info {
     text-align: right;
-}
-
-.procent-list {
-    list-style: none;
-}
-
-.procent-info-list h3 {
-    text-transform: uppercase;
 }
 
 .procent-item h2 {
@@ -168,21 +143,12 @@ a {
     line-height: 10.06px;
 }
 
-.procent-item p {
-    font-size: 16px;
-    line-height: 18px;
-}
-
-.small-logo-list {
-    list-style: none;
-}
-
 .map {
     color: #000000;
-    background-image: url("../img/map.png");
+    background-image: url("../img/map.jpg");
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: 100% 416px;
+    background-size: 100%;
 }
 
 .marker {
@@ -196,46 +162,19 @@ a {
     text-align: left;
 }
 
-.map-info .headline {
+.map-info h2 {
     font-size: 18px;
     line-height: 30px;
 }
 
-.map-info address {
-    font-size: 16px;
-    line-height: 18px;
-}
-
 .map-info a {
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
     color: #ffffff;
-    
     background-color: #fb565a;
-}
-
-.text-us h2 {
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.text-us-item {
-    font-size: 16px;
-    line-height: 18px;
 }
 
 .text-us button {
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
     color: #ffffff;
-    
     background-color: #fb565a;
-}
-
-.main-footer ul {
-    list-style: none;
 }
 
 .footer-text {
