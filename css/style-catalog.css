@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: none;
+
+    background-color: #ffffff;
+  }
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.list {
+    list-style: none;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.grey {
+    background-color: #eeeeee;
+}
+
+.headline-1 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.headline-2 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.headline-3 {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.headline-4 {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.headline-5 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.headline-6 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.price {
+    color: #283136;
+}
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #eeeeee;
+}
+
+.site-navigation {
+    text-align: center;
+}
+
+.site-navigation a:hover {
+    color: #fb565a;
+}
+
+.site-navigation a:focus {
+    color: #000000;
+    opacity: 70%;
+}
+
+.filters h1 {
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.filters {
+    text-align: left;
+}
+
+.sorting {
+    text-align: right;
+}
+
+.catalog {
+    text-align: center;
+}
+
+.pages {
+    text-align: center;
+}
+
+.current-page {
+    border: 2px solid #eeeeee;
+}
+
+.map {
+    color: #000000;
+    background-image: url("../img/map.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.marker {
+    background-image: url("../img/map-marker.svg");
+    background-position: 868px 90px;
+    background-repeat: no-repeat;
+    background-size: 231px 190px;
+}
+
+.map-info {
+    text-align: left;
+}
+
+.map-info h2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.map-info a {
+    color: #ffffff;
+    background-color: #fb565a;
+}
+
+.text-us button {
+    color: #ffffff;
+    background-color: #fb565a;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.main-footer b {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.main-footer p {
+    font-size: 16px;
+    line-height: 22px;
+}
