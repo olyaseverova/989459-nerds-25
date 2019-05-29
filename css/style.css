@@ -39,6 +39,44 @@ a {
     line-height: 18px;
 }
 
+.grey {
+    background-color: #eeeeee;
+}
+
+.headline-1 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.headline-2 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.headline-3 {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.headline-4 {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.headline-5 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.headline-6 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.price {
+    color: #283136;
+}
+
 .main-navigation {
     font-size: 16px;
     line-height: 30px;
@@ -140,6 +178,31 @@ a {
 .procent-item h2 {
     font-size: 45px;
     line-height: 10.06px;
+}
+
+.filters h1 {
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.filters {
+    text-align: left;
+}
+
+.sorting {
+    text-align: right;
+}
+
+.catalog {
+    text-align: center;
+}
+
+.pages {
+    text-align: center;
+}
+
+.current-page {
+    border: 2px solid #eeeeee;
 }
 
 .map {
