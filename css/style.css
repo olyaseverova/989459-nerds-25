@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -84,10 +84,20 @@ a {
     text-transform: uppercase;
 
     background-color: #eeeeee;
+    min-height: 125px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header-logo img {
+    margin-left: 140px;
+    margin-top: 50px;
 }
 
 .site-navigation {
     text-align: center;
+    margin-right: 1000px;
 }
 
 .site-navigation a:hover {
@@ -102,6 +112,16 @@ a {
 .description {
     background-color: #eeeeee;
     text-align: left;
+    margin-top: -45px;
+}
+
+.description-item {
+    min-height: 415px;
+    margin-left: 140px;
+}
+
+.description-item .specification {
+    padding-top: 40px;
 }
 
 .slide-1 {
@@ -125,7 +145,7 @@ a {
     background-size: 759px 411px;
 }
 
-.description-item a {
+.description-item .button {
     color: #ffffff;
     background-color: #fb565a;
 }
@@ -155,6 +175,15 @@ a {
 }
 
 .order-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 200px;
+    padding-right: 100px;
+    min-height: 510px;
+}
+
+.order-item {
     text-align: center;
 }
 
@@ -163,7 +192,30 @@ a {
     line-height: 30px;
 }
 
+.order-item .button-1 {
+    color: #ffffff;
+    background-color: #fb565a;
+}
+
+.order-item .button-2 {
+    color: #ffffff;
+    background-color: #00ca74;
+}
+
+.order-item .button-3 {
+    color: #ffffff;
+    background-color: #efc84a;
+}
+
+.statistics {
+    min-height: 525px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .specification-list {
+    margin-left: 140px;
+    
     text-align: left;
     color: #000000;
     text-transform: none;
@@ -171,13 +223,50 @@ a {
     background-color: #ffffff;
 }
 
+.specification-list p {
+    margin-top: 40px;
+}
+
+.specification-list h3 {
+    margin-top: 50px;
+}
+
 .procent-info {
     text-align: right;
+}
+
+.procent-info img {
+    margin-right: 55px;
+}
+
+.procent-info-list {
+    margin-top: 40px;
+    margin-right: 75px;
+}
+
+.procent-list {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.procent-item {
+    padding-right: 25px;
 }
 
 .procent-item h2 {
     font-size: 45px;
     line-height: 10.06px;
+}
+
+.small-logo-list {
+    display: flex;
+    justify-content: space-between;
+    min-height: 182px;
+    margin-left: 165px;
+    margin-right: 180px;
 }
 
 .filters h1 {
@@ -197,6 +286,15 @@ a {
     text-align: center;
 }
 
+.catalog-info {
+    background-color: #eeeeee;
+}
+
+.catalog-price {
+    color: #ffffff;
+    background-color: #fb565a;
+}
+
 .pages {
     text-align: center;
 }
@@ -211,6 +309,7 @@ a {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100%;
+    min-height: 415px;
 }
 
 .marker {
@@ -221,7 +320,8 @@ a {
 }
 
 .map-info {
-    text-align: left;
+    padding-top: 115px;
+    padding-left: 190px
 }
 
 .map-info h2 {
@@ -229,9 +329,41 @@ a {
     line-height: 30px;
 }
 
+.map-contacts {
+    padding-top: 35px;
+}
+
+.map-info .contact {
+    padding-top: 25px;
+}
+
 .map-info a {
     color: #ffffff;
     background-color: #fb565a;
+}
+
+.text-us {
+    width: 960px;
+    min-height: 590px;
+    padding-left: 100px;
+    margin-top: 75px;
+}
+
+.text-us-form {
+    display: flex;
+}
+
+.text-us-item .name {
+    width: 360px;
+    margin-right: 45px;
+}
+
+.text-us-item .e-mail {
+    width: 360px;
+}
+
+.text-us-item .text {
+    width: 760px;
 }
 
 .text-us button {
@@ -252,3 +384,15 @@ a {
     font-size: 16px;
     line-height: 22px;
 }
+
+.main-footer .list {
+    display: flex;
+    justify-content: space-between;
+    min-height: 145px;
+    margin-top: 70px;
+    margin-left: 140px;
+    margin-right: 355px;
+}
+
+.main-footer .list p {
+    padding-top: 15px;
