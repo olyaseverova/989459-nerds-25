@@ -339,30 +339,99 @@ input[type="radio"].visually-hidden {
     margin-right: 180px;
 }
 
-.filters h1 {
+.container .catalog-headline {
+    margin-top: 0;
     text-align: center;
     background-color: #eeeeee;
+    min-height: 157px;
+    padding-top: 20px;
+}
+
+.all-catalog {
+    display: flex;
+    justify-content: space-between;
 }
 
 .filters {
-    text-align: left;
+    display: flex;  
+}
+
+.left-filters {
+    width: 260px;
+    margin-left: 140px;
+    min-height: 775px;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.left-filters .button-grey {
+    color: #000000;
+    width: 240px;
+    padding: 13px 0;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+.button-grey:hover,
+.button-grey:focus {
+    background-color: #dfdfdf;
 }
 
 .sorting {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    min-height: 133px;
+    margin-top: -13px;
+    margin-left: 140px;
 }
 
-.catalog {
+.sorting-list {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 65px;
+}
+
+.sorting-item {
+    padding-right: 25px;
+}
+
+.catalog-list {
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    min-height: 1915px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: -1020px;
     text-align: center;
 }
 
 .catalog-info {
     background-color: #eeeeee;
+    width: 360px;
+    min-height: 190px;
+    margin-bottom: 10px;
+    padding-top: 40px;
 }
 
-.catalog-price {
+.catalog-info .button {
     color: #ffffff;
     background-color: #fb565a;
+    width: 240px;
+    padding: 13px 0;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e74246;
 }
 
 .pages {
@@ -427,21 +496,40 @@ input[type="radio"].visually-hidden {
 .text-us-item .name {
     width: 360px;
     margin-right: 45px;
+    min-height: 50px;
+    border-radius: 3px;
+    border-color: #d7dcde;
 }
 
 .text-us-item .e-mail {
     width: 360px;
+    min-height: 50px;
+    border-radius: 3px;
+    border-color: #d7dcde;
 }
 
 .text-us-item .text {
     margin-top: 10px;
     width: 760px;
+    min-height: 120px;
+    border-radius: 3px;
+    border-color: #d7dcde;
 }
 
 .text-us button {
+    display: block;
     color: #ffffff;
+    width: 240px;
+    padding: 13px 0;
     background-color: #fb565a;
-    margin-top: 50px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e74246;
 }
 
 .footer-text {
@@ -469,3 +557,4 @@ input[type="radio"].visually-hidden {
 
 .main-footer .list p {
     padding-top: 15px;
+}
