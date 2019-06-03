@@ -16,6 +16,29 @@ a {
     color: #000000;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .list {
     list-style: none;
 }
@@ -84,7 +107,7 @@ a {
     text-transform: uppercase;
 
     background-color: #eeeeee;
-    min-height: 125px;
+    min-height: 130px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -97,8 +120,40 @@ a {
 
 .site-navigation {
     text-align: center;
-    margin-right: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 950px;
+    margin-right: 90px;
+    margin-top: 80px; 
 }
+
+.site-navigation a {
+    vertical-align: middle;
+    padding-right: 50px;
+}
+
+.site-navigation .last-item {
+    margin-left: 290px
+}
+
+.site-navigation .basket-link {
+    position: relative;
+}
+
+.basket-link::before {
+    content: "";
+    
+    position: absolute;
+    left: -40px;
+    top: 7px;
+
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/basket-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 
 .site-navigation a:hover {
     color: #fb565a;
@@ -118,10 +173,7 @@ a {
 .description-item {
     min-height: 415px;
     margin-left: 140px;
-}
-
-.description-item .specification {
-    padding-top: 40px;
+    padding-top: 65px
 }
 
 .slide-1 {
@@ -146,35 +198,53 @@ a {
 }
 
 .description-item .button {
+    display: block;
     color: #ffffff;
+    width: 240px;
+    padding: 13px 0;
     background-color: #fb565a;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e74246;
 }
 
 .order-1 {
+    position: absolute;
+    top: 80px;
+    left: 140px;
     background-image: url("../img/order-1.jpeg");
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: 300px 146px;
-
 }
 
 .order-2 {
+    position: absolute;
+    top: 80px;
+    left: 540px;
     background-image: url("../img/order-2.jpeg");
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: 300px 146px;
-
 }
 
 .order-3 {
+    position: absolute;
+    top: 80px;
+    left: 940px;
     background-image: url("../img/order-3.jpeg");
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: 300px 146px;
-
 }
 
 .order-list {
+    position: relative;
     display: flex;
     justify-content: space-between;
     margin-left: 140px;
@@ -351,6 +421,7 @@ a {
 
 .text-us-form {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .text-us-item .name {
@@ -363,12 +434,14 @@ a {
 }
 
 .text-us-item .text {
+    margin-top: 10px;
     width: 760px;
 }
 
 .text-us button {
     color: #ffffff;
     background-color: #fb565a;
+    margin-top: 50px;
 }
 
 .footer-text {
