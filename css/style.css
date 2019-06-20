@@ -152,10 +152,6 @@ input[type="radio"].visually-hidden {
     padding: 40px 20px;
 }
 
-.main-header-logo img {
-    margin-left: 140px;
-}
-
 .site-navigation {
     text-align: center;
     display: flex;
@@ -350,12 +346,16 @@ input[type="radio"].visually-hidden {
 
 .order {
     text-align: left;
-    width: 1159px;
+    width: 1200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .order-list {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 160px;
 }
@@ -490,11 +490,11 @@ input[type="radio"].visually-hidden {
 }
 
 .statistics {
-    display: block;
-    position: relative;
-    min-height: 525px;
-    width: 1144px;
     display: flex;
+    position: relative;
+    justify-content: space-between;
+    min-height: 525px;
+    width: 1200px;
 }
 
 .statistics::before {
@@ -508,6 +508,7 @@ input[type="radio"].visually-hidden {
 }
 
 .specification-list {
+    width: 850px;
     margin-top: -40px;
     
     text-align: left;
@@ -525,9 +526,20 @@ input[type="radio"].visually-hidden {
     margin-top: 50px;
 }
 
+.development-list {
+    margin-top: 0px;
+}
+
 .development-item {
     position: relative;
-    padding-bottom: 40px;
+}
+
+.development-item-1 {
+    margin-bottom: 35px;
+}
+
+.development-item-2 {
+    margin-bottom: 35px;
 }
 
 .development-item::before {
@@ -541,12 +553,16 @@ input[type="radio"].visually-hidden {
 }
 
 .procent-info {
+    width: 450px;
     margin-top: -30px;
-    margin-left: 120px;
+    margin-left: 0px;
 }
 
 .procent-info h3 {
+    font-size: 15px;
+    
     padding-top: 25px;
+    margin-left: 20px;
 }
 
 .procent-list {
@@ -555,14 +571,13 @@ input[type="radio"].visually-hidden {
 }
 
 .procent-item {
-    padding-top: 25px;
     margin-right: 0;
     padding-right: 15px;
 }
 
 .procent-item h2 {
     font-size: 45px;
-    line-height: 10.06px;
+    padding-top: 0px;
 }
 
 .small-logo-list {
@@ -571,17 +586,18 @@ input[type="radio"].visually-hidden {
     position: relative;
     display: flex;
     min-height: 182px;
+    padding-left: 0px;
 }
 
-.small-logo-item {
+.small-logo-item img {
     opacity: 0.3;
 }
 
-.small-logo-item:hover {
+.small-logo-item img:hover {
     opacity: 1;
 }
 
-.small-logo-item:active {
+.small-logo-item img:active {
     opacity: 0.2;
 }
 
@@ -591,7 +607,7 @@ input[type="radio"].visually-hidden {
     width: 1160px;
     height: 2px;
     top: -50px;
-    left: 20px;
+    left: 0px;
     background-color: #eeeeee;
 }
 
@@ -601,7 +617,7 @@ input[type="radio"].visually-hidden {
     width: 1160px;
     height: 1px;
     top: 125px;
-    left: 20px;
+    left: 0px;
     background-color: #eeeeee;
 }
 
@@ -1076,7 +1092,7 @@ input[type="radio"].visually-hidden {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 415px;
+    min-height: 420px;
 }
 
 .marker {
@@ -1095,7 +1111,7 @@ input[type="radio"].visually-hidden {
     width: 320px;
     min-height: 255px;
     margin-left: 140px;
-    margin-top: 55px;
+    top: 60%;
 }
 
 .map-info h2 {
