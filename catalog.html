@@ -30,83 +30,80 @@
   <main class="container">
     <h1 class="catalog-headline headline-4">Магазин готовых шаблонов</h1>
     <section class="all-catalog center">
-      <section class="filters">
-        <section class="left-filters">
-          <form class="filter" action="https://echo.htmlacademy.ru" method="post">
-            <fieldset>
-              <legend class="headline-1 up">Стоимость:</legend>
-              <div class="range-filter">
-                <div class="range-controls">
-                  <div class="scale">
-                    <div class="bar"></div>
-                  </div>
-                  <div class="toggle toggle-min"></div>
-                  <div class="toggle toggle-max"></div>
+      <section class="left-filters">
+        <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend class="headline-1 up">Стоимость:</legend>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
                 </div>
-                <div class="price-controls">
-                  <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-                  <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
-                </div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
               </div>
-            </fieldset>
+              <div class="price-controls">
+                <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+              </div>
+            </div>
+          </fieldset>
 
-            <fieldset class="setka">
-              <legend class="headline-1 up">Сетка:</legend>
-              <ul class="list headline-6">
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type"
-                    value="adaptive" id="adaptive-radio" checked>
-                  <label for="adaptive-radio">Адаптивная</label>
-                </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type"
-                    value="fixed" id="fixed-radio">
-                  <label for="fixed-radio">Фиксированная</label>
-                </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type"
-                    value="rubber" id="rubber-radio">
-                  <label for="rubber-radio">Резиновая</label>
-                </li>
-              </ul>
-            </fieldset>
+          <fieldset class="setka">
+            <legend class="headline-1 up">Сетка:</legend>
+            <ul class="list headline-6">
+              <li class="filter-option radio-1">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type"
+                  value="adaptive" id="adaptive-radio" checked>
+                <label for="adaptive-radio">Адаптивная</label>
+              </li>
+              <li class="filter-option radio-2">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type"
+                  value="fixed" id="fixed-radio">
+                <label for="fixed-radio">Фиксированная</label>
+              </li>
+              <li class="filter-option radio-3">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type"
+                  value="rubber" id="rubber-radio">
+                <label for="rubber-radio">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
 
-            <fieldset class="features">
-              <legend class="headline-1 up">Особенности:</legend>
-              <ul class="list headline-6">
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slayder"
-                    id="slayder-checkbox" checked>
-                  <label for="slayder-checkbox">Слайдер</label>
-                </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="features"
-                    id="features-checkbox">
-                  <label for="features-checkbox">Блок преимуществ</label>
-                </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news"
-                    id="news-checkbox" checked>
-                  <label for="news-checkbox">Новости</label>
-                </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery"
-                    id="gallery-checkbox">
-                  <label for="gallery-checkbox">Галерея</label>
-                </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket"
-                    id="basket-checkbox">
-                  <label for="basket-checkbox">Корзина</label>
-                </li>
-              </ul>
-            </fieldset>
-            <button class="button-grey grey up text" type="submit">Показать</button>
-          </form>
-        </section>
-
-
+          <fieldset class="features">
+            <legend class="headline-1 up">Особенности:</legend>
+            <ul class="list headline-6">
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slayder"
+                  id="slayder-checkbox" checked>
+                <label for="slayder-checkbox">Слайдер</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="features"
+                  id="features-checkbox">
+                <label for="features-checkbox">Блок преимуществ</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news"
+                  id="news-checkbox" checked>
+                <label for="news-checkbox">Новости</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery"
+                  id="gallery-checkbox">
+                <label for="gallery-checkbox">Галерея</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket"
+                  id="basket-checkbox">
+                <label for="basket-checkbox">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="button-grey grey up text" type="submit">Показать</button>
+        </form>
       </section>
+
       <section class="catalog">
         <section class="sorting">
           <h3 class="headline-3 up">Сортировать:</h3>
@@ -114,6 +111,10 @@
             <li class="sorting-item current-sorting-item"><a>по цене</a></li>
             <li class="sorting-item"><a href="#">по типу</a></li>
             <li class="sorting-item"><a href="#">по названию</a></li>
+            <li class="sorting-item-icon sorting-item-icon-1"><a href="#"><img src="img/icon-down-dir.svg" width="11" height="10"
+                  alt="Опустить"></a></li>
+            <li class="sorting-item-icon sorting-item-icon-2"><a href="#"><img src="img/icon-up-dir.svg" width="11" height="10"
+                  alt="Поднять"></a></li>
           </ul>
         </section>
         <h2 class="visually-hidden">Готовые шаблоны</h2>
@@ -243,7 +244,7 @@
       </p>
       <p class="text-us-item">
         <label>Текст письма:<br>
-          <input class="text" type="text" name="text" value="" placeholder="В свободной форме">
+          <textarea placeholder="В свободной форме" wrap="on" rows="5" cols="91"></textarea>
         </label>
       </p>
       <button class="button text-us-button up" type="submit">Отправить</button>
