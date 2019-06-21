@@ -366,7 +366,7 @@ input[type="radio"].visually-hidden {
   
 .order-item-1 {
     position: relative;
-    padding-top: 200px;
+    padding-top: 150px;
     width: 300px;
     margin-right: 100px;
 }
@@ -375,7 +375,7 @@ input[type="radio"].visually-hidden {
     content: "";
     width: 300px;
     height: 146px;
-    top: 50px;
+    top: 0px;
     position: absolute;
     left: 0;
     background-image: url("../img/order-1.jpeg");
@@ -406,7 +406,7 @@ input[type="radio"].visually-hidden {
 
 .order-item-2 {
     position: relative;
-    padding-top: 200px;
+    padding-top: 150px;
     width: 300px;
     margin-right: 100px;
 }
@@ -415,7 +415,7 @@ input[type="radio"].visually-hidden {
     content: "";
     width: 300px;
     height: 146px;
-    top: 50px;
+    top: 0px;
     position: absolute;
     left: 0;
     background-image: url("../img/order-2.jpeg");
@@ -446,7 +446,7 @@ input[type="radio"].visually-hidden {
 
 .order-item-3 {
     position: relative;
-    padding-top: 200px;
+    padding-top: 150px;
     width: 300px;
 }
 
@@ -454,7 +454,7 @@ input[type="radio"].visually-hidden {
     content: "";
     width: 300px;
     height: 146px;
-    top: 50px;
+    top: 0px;
     position: absolute;
     left: 0;
     background-image: url("../img/order-3.jpeg");
@@ -682,7 +682,7 @@ input[type="radio"].visually-hidden {
 
 .all-catalog {
     display: flex;
-    
+    flex-wrap: wrap;
     width: 1440px;
 }
 
@@ -923,7 +923,7 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog {
-    margin-left: 140px;
+    padding-left: 140px;
 }
 
 .sorting {
@@ -1040,22 +1040,24 @@ input[type="radio"].visually-hidden {
     box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
-.pages {
-    text-align: center;
-}
-
 .pages-list {
+    padding-left: 0px;
     display: flex;
-    margin-right: 460px;
-    margin-left: 540px;
+    width: 450px;
+    flex-wrap: wrap;
+    margin-left: 510px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 .pages-item {
+    padding-top: 15px;
+    height: 35px;
+    text-align: center;
     width: 50px;
-    height: 34px;
-    padding-top: 16px;
     border-radius: 2px;
     background-color: #dbdbdb;
+    margin-right: 11px;
 }
 
 .pages-item:hover {
@@ -1069,9 +1071,11 @@ input[type="radio"].visually-hidden {
 }
 
 .pages-item-long {
+    text-align: center;
     width: 260px;
-    height: 34px;
-    padding-top: 16px;
+    padding-top: 15px;
+    height: 35px;
+    
     border-radius: 2px;
     background-color: #dbdbdb;
 }
@@ -1086,20 +1090,13 @@ input[type="radio"].visually-hidden {
     box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
-.current-page {
+.pages-list .current-page {
+    padding-top: 15px;
+    text-align: center;
     width: 50px;
-    height: 34px;
-    padding-top: 16px;
+    height: 29px;
     border-radius: 2px;
     border: 3px solid #dbdbdb;
-    margin-right: 11px;
-}
-
-.page-2 {
-    margin-right: 11px;
-}
-
-.page-3 {
     margin-right: 11px;
 }
 
