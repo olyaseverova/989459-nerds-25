@@ -157,14 +157,14 @@ input[type="radio"].visually-hidden {
     display: flex;
     flex-wrap: wrap;
     
-    width: 950px;
+    width: 500px;
     margin-right: 90px;
     margin-top: 30px; 
 }
 
 .site-navigation a {
     vertical-align: middle;
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .catalog-item {
@@ -183,27 +183,21 @@ input[type="radio"].visually-hidden {
     background-color: #fb565a;
 }
 
-.site-navigation .last-item {
-    margin-left: 290px
+.site-navigation-basket {
+    display: flex;
+    padding-left: 0px;
+    margin-left: 680px;
+    margin-top: -45px;
 }
 
-.site-navigation .basket-link {
-    position: relative;
+.site-navigation-basket img {
+    margin-right: 25px;
+    opacity: 0.4;
 }
 
-.basket-link::before {
-    content: "";
-    
-    position: absolute;
-    left: -40px;
-    top: 7px;
-
-    width: 15px;
-    height: 15px;
-    background-image: url("../img/basket-icon.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-  }
+.site-navigation-basket a:hover {
+    color: #fb565a;
+}
 
 .site-navigation a:hover {
     color: #fb565a;
@@ -368,7 +362,6 @@ input[type="radio"].visually-hidden {
     position: relative;
     padding-top: 150px;
     width: 300px;
-    margin-right: 100px;
 }
 
 .order-item-1::before {
@@ -408,7 +401,6 @@ input[type="radio"].visually-hidden {
     position: relative;
     padding-top: 150px;
     width: 300px;
-    margin-right: 100px;
 }
 
 .order-item-2::before {
@@ -491,6 +483,10 @@ input[type="radio"].visually-hidden {
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: 300px 146px;
+}
+
+.order-item:not(:nth-child(3n)) {
+    margin-right: 100px;
 }
 
 .statistics {
@@ -580,12 +576,22 @@ input[type="radio"].visually-hidden {
 }
 
 .procent-item .procent {
+    position: absolute;
     font-size: 20px;
+    margin-left: 78px;
+    top: 260px;
+}
+
+.procent-item .procent-3 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 53px;
+    top: 260px;
 }
 
 .procent-item h2 {
     font-size: 45px;
-    padding-top: 0px;
+    margin-top: 25px;
 }
 
 .small-logo-list {
@@ -794,7 +800,7 @@ input[type="radio"].visually-hidden {
 
 .setka ul {
     margin-left: -30px;
-    margin-top: 22px;  
+    margin-top: 20px;  
 }
 
 .setka .filter-option {
@@ -829,11 +835,12 @@ input[type="radio"].visually-hidden {
 .filter-input-radio + label::before {
     content: "";
     position: absolute;
-    left: -45px;
-    top: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -40px;
   
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
   
     border: 5px solid #000000;
     opacity: 0.3;
@@ -843,11 +850,12 @@ input[type="radio"].visually-hidden {
 .filter-input-radio:checked + label::after {
     content: "";
     position: absolute;
-    top: 5.5px;
-    left: -34px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -32px;
   
-    width: 13px;
-    height: 13px;
+    width: 9px;
+    height: 9px;
   
     background-color: #000000;
     opacity: 0.3;
@@ -993,7 +1001,7 @@ input[type="radio"].visually-hidden {
 
     width: 360px;
     height: 40px;
-    background-image: url("../img/browser.png");
+    background-image: url("../img/browser.svg");
     opacity: 0.1;
 }
 
@@ -1049,8 +1057,7 @@ input[type="radio"].visually-hidden {
     display: flex;
     width: 450px;
     flex-wrap: wrap;
-    margin-left: 510px;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
