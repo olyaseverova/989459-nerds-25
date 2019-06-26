@@ -183,20 +183,29 @@ input[type="radio"].visually-hidden {
     background-color: #fb565a;
 }
 
-.site-navigation-basket {
-    display: flex;
-    padding-left: 0px;
+.basket {
+    position: relative;
     margin-left: 680px;
     margin-top: -45px;
 }
 
-.site-navigation-basket img {
-    margin-right: 25px;
-    opacity: 0.4;
+.basket a:hover {
+    color: #fb565a;
 }
 
-.site-navigation-basket a:hover {
-    color: #fb565a;
+.basket::before {
+    content: "";
+
+    position: absolute;
+    left: -41px;
+    top: 7px;
+    opacity: 0.4;
+
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/svg-nerds/cart-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 .site-navigation a:hover {
@@ -573,20 +582,6 @@ input[type="radio"].visually-hidden {
 .procent-item {
     margin-right: 0;
     padding-right: 15px;
-}
-
-.procent-item .procent {
-    position: absolute;
-    font-size: 20px;
-    margin-left: 78px;
-    top: 260px;
-}
-
-.procent-item .procent-3 {
-    position: absolute;
-    font-size: 20px;
-    margin-left: 53px;
-    top: 260px;
 }
 
 .procent-item h2 {
