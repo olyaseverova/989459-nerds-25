@@ -145,6 +145,7 @@ input[type="radio"].visually-hidden {
 
 .main-navigation {
     width: 1150px;
+    max-width: 1200px;
     font-size: 16px;
     line-height: 30px;
     color: #000000;
@@ -1223,7 +1224,7 @@ input[type="radio"].visually-hidden {
 }
 
 .text-us-form {
-    width: 775px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
