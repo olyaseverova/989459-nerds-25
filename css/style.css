@@ -1222,11 +1222,13 @@ input[type="radio"].visually-hidden {
     position: absolute;
     
     background-color: #ffffff;
-    padding-top: 40px;
-    text-align: center;
-
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 47px;
+    box-sizing: border-box;
     width: 320px;
-    height: 273px;
+    height: 308px;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
@@ -1240,24 +1242,24 @@ input[type="radio"].visually-hidden {
 }
 
 .map-info h2 {
+    margin-top: 0;
     font-size: 18px;
-    line-height: 30px;
+    font-weight: 800;
 }
 
 .map-contacts {
-    padding-top: 15px;
+    margin-top: 13px;
 }
 
 .map-info .contact {
-    margin-left: -25px;
+    margin-top: 5px;
 }
 
 .contact-button {
     display: block;
-    width: 218px;
+    width: 100%;
     padding: 13px 0;
-    margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 60px;
     
     font-size: 16px;
     line-height: 18px;
