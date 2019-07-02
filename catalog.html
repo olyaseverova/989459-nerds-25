@@ -6,6 +6,7 @@
   <title>Студия «Нёрдс»</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 
 <body>
@@ -111,8 +112,8 @@
             <li class="sorting-item current-sorting-item"><a>по цене</a></li>
             <li class="sorting-item"><a href="#">по типу</a></li>
             <li class="sorting-item"><a href="#">по названию</a></li>
-            <li class="sorting-item-icon sorting-item-icon-1"><a href="#"><img src="img/icon-down-dir.png" width="11" height="10"
-                  alt="Опустить"></a></li>
+            <li class="sorting-item-icon sorting-item-icon-1"><a href="#"><img src="img/icon-down-dir.png" width="11"
+                  height="10" alt="Опустить"></a></li>
             <li class="sorting-item-icon"><a href="#"><img src="img/svg-nerds/icon-up-dir.svg" width="11" height="10"
                   alt="Поднять"></a></li>
           </ul>
@@ -216,29 +217,32 @@
       <p>Скидка 10% для друзей из социальных сетей.</p>
     </section>
   </footer>
-  <section class="text-us">
-    <h2 class="headline">Напишите нам</h2>
-    <button class="button button-close" type="submit"><img src="img/svg-nerds/close-cross.svg" width="21" height="21"
-        alt="Закрыть"></button>
-    <form class="text-us-form text" action="https://echo.htmlacademy.ru" method="post">
-      <p class="text-us-item">
-        <label>Ваше имя:<br>
-          <input class="name" type="text" name="name" value="" placeholder="Имя Фамилия">
-        </label>
-      </p>
-      <p class="text-us-item">
-        <label>Ваш e-mail:<br>
-          <input class="e-mail" type="text" name="e-mail" value="" placeholder="email@example.com">
-        </label>
-      </p>
-      <p class="text-us-item">
-        <label>Текст письма:<br>
-          <textarea placeholder="В свободной форме" wrap="on" style="border:solid 2px black;"></textarea>
-        </label>
-      </p>
-      <button class="button text-us-button up" type="submit">Отправить</button>
-    </form>
+  <section class="modal-text-us">
+    <section class="text-us">
+      <h2 class="headline">Напишите нам</h2>
+      <button class="button button-close" type="submit"><img src="img/svg-nerds/close-cross.svg" width="21" height="21"
+          alt="Закрыть"></button>
+      <form class="text-us-form text" action="https://echo.htmlacademy.ru" method="post">
+        <p class="text-us-item">
+          <label>Ваше имя:<br>
+            <input class="name" type="text" name="name" value="" placeholder="Имя Фамилия">
+          </label>
+        </p>
+        <p class="text-us-item">
+          <label>Ваш e-mail:<br>
+            <input class="e-mail" type="text" name="e-mail" value="" placeholder="email@example.com">
+          </label>
+        </p>
+        <p class="text-us-item">
+          <label>Текст письма:<br>
+            <textarea placeholder="В свободной форме" wrap="on" style="border:solid 2px black;"></textarea>
+          </label>
+        </p>
+        <button class="button text-us-button up" type="submit">Отправить</button>
+      </form>
+    </section>
   </section>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

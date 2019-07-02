@@ -1364,13 +1364,26 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-text-us {
-    
+    position: fixed;
+    background-color: none;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.modal-show {
+    display: block;
 }
 
 .text-us {
     position: absolute;
-    left: 17%;
-    top: 1820px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     width: 960px;
     box-sizing: border-box;
