@@ -199,10 +199,10 @@ input[type="radio"].visually-hidden {
     display: block;
     font-weight: bold;
     position: relative;
-    margin-top: 28px; 
+    margin-top: 15px; 
 }
 
-.basket a:hover {
+.user-navigation li a:hover {
     color: #fb565a;
 }
 
