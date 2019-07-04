@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto, Arial;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -865,7 +865,7 @@ sup {
     padding: 8px 10px;
     margin-left: 10px;
     
-    font-family: Roboto, Arial;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
     text-align: center;
     color: #283136;
@@ -920,12 +920,27 @@ sup {
     transform: translateY(-50%);
     left: -35px;
   
-    width: 15px;
-    height: 15px;
-  
-    border: 5px solid #000000;
+    width: 25px;
+    height: 25px;
     opacity: 0.4;
-    border-radius: 50%;
+    background-image: url("../img/svg-nerds/radio-off.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.filter-input-radio:checked + label::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -35px;
+  
+    width: 25px;
+    height: 25px;
+    opacity: 0.4;
+    background-image: url("../img/svg-nerds/radio-on.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 .filter-input-radio + label:hover::before {
@@ -933,29 +948,6 @@ sup {
 }
 
 .filter-input-radio + label:disabled::before {
-    opacity: 0.1;
-}
-
-.filter-input-radio:checked + label::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -26.5px;
-  
-    width: 8px;
-    height: 8px;
-  
-    background-color: #000000;
-    opacity: 0.4;
-    border-radius: 50%;
-}
-
-.filter-input-radio + label:hover::after {
-    opacity: 1;
-}
-
-.filter-input-radio + label:disabled::after {
     opacity: 0.1;
 }
 
@@ -1580,7 +1572,7 @@ iframe {
 }
 
 .text-us-item .name {
-    font-family: Roboto, Arial;
+    font-family: Roboto, Arial, sans-serif;
     padding-left: 10px;
     margin-top: 10px;
     width: 345px;
@@ -1599,7 +1591,7 @@ iframe {
 }
 
 .text-us-item .e-mail {
-    font-family: Roboto, Arial;
+    font-family: Roboto, Arial, sans-serif;
     padding-left: 10px;
     margin-top: 10px;
     width: 345px;
@@ -1618,7 +1610,7 @@ iframe {
 }
 
 .text-us-item textarea {
-    font-family: Roboto, Arial;
+    font-family: Roboto, Arial, sans-serif;
     width: 100%;
     flex-wrap: wrap;
     padding-top: 10px;
