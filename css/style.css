@@ -1548,7 +1548,6 @@ iframe {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding-top: 10px;
 }
 
@@ -1562,7 +1561,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     width: 350px;
-    margin-left: 5px;
+    margin-left: 45px;
 }
 
 .text-us-item:nth-child(3) {
