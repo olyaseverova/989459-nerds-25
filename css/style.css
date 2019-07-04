@@ -142,6 +142,7 @@ input[type="radio"].visually-hidden {
 
 .main-header {
     background-color: #eeeeee;
+    width: 100%;
 }
 
 .main-navigation {
@@ -321,7 +322,8 @@ input[type="radio"].visually-hidden {
 .slider-item {
     display: none;
     padding-top: 30px;
-    height: 415px;
+    height: 395px;
+    background-color: #eeeeee;
 }
 
  .slider-wrapper {
@@ -333,7 +335,7 @@ input[type="radio"].visually-hidden {
 .slider-item:nth-child(1) {
     background-image: url("../img/slide1.png");
     background-repeat: no-repeat;
-    background-position: 99% -8px;
+    background-position: 99% -7px;
 }
   
 .slider-item:nth-child(2) {
