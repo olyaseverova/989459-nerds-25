@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, Arial;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -289,6 +289,7 @@ input[type="radio"].visually-hidden {
     position: relative;
     
     display: inline-block;
+    vertical-align: middle;
     width: 18px;
     height: 18px;
     padding: 8px;
@@ -426,6 +427,10 @@ input[type="radio"].visually-hidden {
 .order-item h3 {
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.order-item p {
+    max-width: 280px;
 }
 
 .order-iten-app-1::before {
@@ -566,8 +571,13 @@ input[type="radio"].visually-hidden {
     background-color: #ffffff;
 }
 
-.specification-list p {
-    margin-top: 30px;
+.specification-list .specification-text {
+    margin-top: 20px;
+    max-width: 670px;
+} 
+
+.specification-list headline {
+    max-width: 670px;
 }
 
 .specification-list .zakaz {
@@ -622,6 +632,10 @@ input[type="radio"].visually-hidden {
     margin-top: -3px;
     margin-left: 0px;
     padding-left: 0;
+}
+
+.procent-item .text {
+    max-width: 95px;
 }
 
 sup {
@@ -839,6 +853,7 @@ sup {
   
 .price-controls label {
     display: inline-block;
+    vertical-align: middle;
     width: 50%;
     
     font-size: 16px;
@@ -850,7 +865,7 @@ sup {
     padding: 8px 10px;
     margin-left: 10px;
     
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Roboto, Arial;
     font-size: 16px;
     text-align: center;
     color: #283136;
@@ -926,7 +941,7 @@ sup {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -27px;
+    left: -26.5px;
   
     width: 8px;
     height: 8px;
@@ -1064,19 +1079,22 @@ sup {
 }
 
 .sorting-item {
+    width: 80px;
     opacity: 0.3;
 }
 
 .sorting-item:nth-child(1) {
-    margin-right: 28px;
+    margin-right: 5px;
 }
 
 .sorting-item:nth-child(2) {
-    margin-right: 26px;
+    margin-right: 5px;
 }
 
 .sorting-item:nth-child(3) {
-    margin-right: 46px;
+    width: 120px;
+    flex-wrap: nowrap;
+    margin-right: 30px;
 }
 
 .sorting-item:hover {
@@ -1190,6 +1208,8 @@ sup {
     font-size: 16px;
     line-height: 18px;
     display: inline-block;
+    vertical-align: middle;
+
     color: #ffffff;
     background-color: #fb565a;
     margin-top: 10px;
@@ -1275,12 +1295,28 @@ sup {
     border: 3px solid #dfdfdf;
 }
 
+.all-map {
+    position: relative;
+}
+
+
+.map {
+    width: 100%;
+    height: 415px;
+    position: absolute;
+}
+
+.map-marker {
+    position: absolute;
+    left: 47.5%;
+    top: 90px;
+}
+
 iframe {
     position: absolute;
     background-size: 100%;
     width: 100%;
     height: 415px;
-    
 }
 
 .map-info {
@@ -1313,6 +1349,7 @@ iframe {
 }
 
 .map-contacts {
+    max-width: 210px;
     margin-top: 25px;
 }
 
@@ -1523,16 +1560,27 @@ iframe {
     padding-top: 10px;
 }
 
+.text-us-item:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
 .text-us-item:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
     margin-left: 5px;
 }
 
 .text-us-item:nth-child(3) {
     width: 745px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .text-us-item .name {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, Arial;
     padding-left: 10px;
     margin-top: 10px;
     width: 345px;
@@ -1551,7 +1599,7 @@ iframe {
 }
 
 .text-us-item .e-mail {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, Arial;
     padding-left: 10px;
     margin-top: 10px;
     width: 345px;
@@ -1570,7 +1618,7 @@ iframe {
 }
 
 .text-us-item textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, Arial;
     width: 100%;
     flex-wrap: wrap;
     padding-top: 10px;
